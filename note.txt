@@ -1,0 +1,19 @@
+git config --global user.name "your name"
+
+git config --global user.email "your email"
+
+mkdir learngit
+cd learngit
+pwd
+
+git init
+///vi test.txt
+
+git add test.txt
+git commit -m "wrote a test file"
+/// fatal: .git/config  add
+///[user]
+///email=your email
+///name=your name
+git status
+git diff
